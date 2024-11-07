@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 10 - Dice Probability</title>
+</head>
+<body>
+    <h1>Dice Probability Calculator</h1>
+    <p>Enter the number of dice and the desired sum:</p>
+
+    <div>
+        <label for="numDice">Number of dice: </label>
+        <input type="number" id="numDice" required min="1">
+    </div>
+    <div>
+        <label for="desiredSum">Desired sum: </label>
+        <input type="number" id="desiredSum" required min="1">
+    </div>
+    <button onclick="calculateProbability()">Calculate Probability</button>
+
+    <h2>Result:</h2>
+    <p id="result"></p>
+
+    <script src="assignment10.js"></script>
+</body>
+</html>
